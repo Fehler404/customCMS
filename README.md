@@ -1,4 +1,1 @@
-customCMS
-=========
-
-Code to custom CMS
+This is the code for custom cms with 3 design templates, a backend login page and backend page where code for the 3 templates can be updated. 

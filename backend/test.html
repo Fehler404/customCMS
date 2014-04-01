@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+<script>
+$(document).ready(function() {
+    $("#page").change(function() {
+        $('#content').html($(this).val());
+		//alert("HELLO WORLD!");
+    }).change();
+});
+</script>
+
+
+
+
+<form id="form" method="post" action="">
+<p>Page: <select name="page" id="page">
+    <option value="" disabled="disabled" selected="selected">Please Select Page</option>
+    <option value="home">Home</option>
+    <option value="about">About</option>
+    <option value="services">Services</option>
+    <option value="gallery">Gallery</option>
+    <option value="gift">Gift</option>
+    <option value="contact">Contact</option>
+    <option value="schedule">Schedule</option>
+    </select></p>
+    <br />
+    <input type="hidden" value="read" />
+    <textarea name="content" id="content"></textarea>
+    <input type="submit" name="submit" value="Publish" /> 
+</form>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,424 @@
+/*
+Theme Name: Style 3
+Theme URI: http://www.
+Description: 
+Author: Tairema Dailey
+Author URI: http://tairemadailey.com/
+Version: 1.0
+
+*/
+*
+{
+	margin: 0;
+	padding: 0;
+	position:relative;
+}
+
+body{
+	background: url('../images/tobg.png') repeat-x, url('../images/bg.jpg') repeat;
+	font-family:CaviarDreamsRegular;
+	font-size:1.00rem;
+	color:#333;
+}
+
+#wrapper{
+	width:980px;
+	padding-bottom:50px;   /* Height of the footer */
+	
+}
+
+#logo{
+	width: 150px;
+	height: 100px;
+	text-align:center;
+	position:relative;
+	margin-bottom: 100px;
+	font-size:1.00rem;
+	margin-top: 30px;
+	margin-left: 520px;
+	color:#333;
+	
+}
+
+#header{
+	height: 50px;
+	margin-top: -100px;
+	margin-left: 300px;
+	
+}
+
+#nav{
+	position:relative;
+	text-align: center;
+	display:inline;
+	padding: 15px;
+	color:#666;
+	font-size:1.00rem;
+	
+	
+}
+
+ul#pageitem-menu, li {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-transform:uppercase;
+	
+}
+ul#pageitem-menu li {
+	display:inline;
+	 
+}
+ul#pageitem-menu li a {
+	display: block;
+	float: left;
+	padding: 20px;
+	text-decoration:none;
+	color:#666;
+	font-size:1.00rem;
+	
+	
+	
+}
+ul#pageitem-menu li a:hover {
+	color: #999;
+	
+}
+
+a{
+	text-decoration:none;
+	color:#ccc;
+}
+
+a:hover{
+	color:#666;	
+	
+}
+
+#mainContent
+{
+	position:relative;
+	width: 900px;
+	height: 900px;
+	margin-bottom: 40px;
+	background:#FFF;
+	margin-left: 180px;
+	margin-top: 50px;
+	opacity: 0.8;
+	
+	
+}
+
+h2{
+	font-family: 'CaviarDreamsRegular';
+	font-weight:bold;
+	color:#333;
+	font-size: 1.125rem;
+}
+
+	
+
+
+
+footer{
+	color:#333;
+	text-align:center;
+   	bottom:0px;
+   	width:100%;
+   	min-height:30px;
+	position:relative;
+	z-index:-999999;
+	margin-left: 120px;
+	margin-top: 20px;
+	
+}
+
+.social{
+	float:right;
+	margin-right: -200px;
+}
+
+/*Styles*/
+@font-face {
+    font-family: 'CaviarDreamsRegular';
+    src: url('../assets/Caviar-Dreams-fontfacekit/CaviarDreams-webfont.eot');
+    src: url('../assets/Caviar-Dreams-fontfacekit/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/Caviar-Dreams-fontfacekit/CaviarDreams-webfont.woff') format('woff'),
+         url('../assets/Caviar-Dreams-fontfacekit/CaviarDreams-webfont.ttf') format('truetype'),
+         url('../assets/Caviar-Dreams-fontfacekit/CaviarDreams-webfont.svg#CaviarDreamsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CaviarDreamsBold';
+    src: url('../assets/Caviar-Dreams-fontfacekit/Caviar_Dreams_Bold-webfont.eot');
+    src: url('../assets/Caviar-Dreams-fontfacekit/Caviar_Dreams_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/Caviar-Dreams-fontfacekit/Caviar_Dreams_Bold-webfont.woff') format('woff'),
+         url('../assets/Caviar-Dreams-fontfacekit/Caviar_Dreams_Bold-webfont.ttf') format('truetype'),
+         url('../assets/Caviar-Dreams-fontfacekit/Caviar_Dreams_Bold-webfont.svg#CaviarDreamsBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*home gallery*/
+
+.min-gallery .preview
+{
+	width: 600px;
+	height: 335px;
+	margin-left: 150px;
+	margin-top: 100px;
+	position: relative;
+	overflow: hidden;
+	
+	
+}
+.min-gallery .preview img
+{
+	
+	position: absolute;
+}
+
+.active-image
+{
+	z-index: 100;
+	display: block;
+}
+.inactive-image
+{
+}
+
+.right{
+	color: #fff;
+}
+
+/*contact form*/
+fieldset#contact_form{
+	margin-left: 50px;
+	border:0px;
+	
+}
+
+
+#contact_form input {
+	background:#fcfbfb;
+}
+#contact_form {
+	width:600px;
+	float:left
+}
+#contact_form textarea {
+	width:97.5%;
+	background:#fcfbfb;
+	height:150px
+}
+
+#contact_form input[type="text"],
+#contact_form input[type="email"],
+#contact_form input[type="tel"],
+#contact_form input[type="url"],
+#contact_form textarea,
+#contact_form button[type="submit"] {
+	font:400 12px/12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#contact_form {
+	text-shadow:0 1px 0 #FFF;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	padding:25px;
+}
+#contact_form h3 {
+	color:#333;
+	display:block;
+	font-size:28px;
+}
+#contact_form h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+#contact_form label span {
+	cursor:pointer;
+	color:#333;
+	display:block;
+	margin:5px 0;
+	font-weight:900;
+}
+#contact_form input[type="text"],
+#contact_form input[type="email"],
+#contact_form input[type="tel"],
+#contact_form input[type="url"],
+#contact_form textarea {
+	width:100%;
+	box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-webkit-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-moz-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	border-radius:5px;
+}
+#contact_form input[type="text"]:hover,
+#contact_form input[type="email"]:hover,
+#contact_form textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+#contact_form textarea {
+	height:100px;
+	max-width:100%;
+}
+#contact_form button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#333;
+	background-image:linear-gradient(bottom, #8C1C50 0%, #333 52%);
+	background-image:-moz-linear-gradient(bottom, #8C1C50 0%, #333 52%);
+	background-image:-webkit-linear-gradient(bottom, #8C1C50 0%, #333 52%);
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	border-radius:5px;
+}
+#contact_form button[type="submit"]:hover {
+	background-image:linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+	background-image:-moz-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+	background-image:-webkit-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+#contact_form button[type="submit"]:active {
+	box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
+}
+#contact_form input:focus,
+#contact_form textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+    color:#888;
+}
+:-moz-placeholder {
+    color:#888;
+}
+::-moz-placeholder {
+    color:#888;
+}
+:-ms-input-placeholder {
+    color:#888;
+}
+
+
+
+/*pretty photo*/
+div#works {
+	margin-top:10px;
+	margin-left: 30px;
+	overflow:visible!important;
+	width:725px;
+}
+div#works img {
+	width:28%;
+	min-height:150px;
+	position:relative;
+	margin-right:26px;
+	margin-bottom:18px;
+	cursor:pointer;
+	transition:all 500ms;
+	-webkit-transition:all 500ms;
+	-moz-transition:all 500ms;
+	-o-transition:all 500ms;
+	background:#fff;
+}
+div#works img:hover {
+	top:-10px!important;
+	opacity:.5!important
+}
+
+ul#works_filter li a:hover, ul#works_filter li a.selected {
+	background:#c2bebb;
+	color:#fff;
+	opacity:1;
+	-webkit-border-radius: 0.2em;
+	-moz-border-radius: 0.2em;
+	border-radius: 0.2em;
+	/* IE hacks */
+    zoom: 1;
+ *display: inline;
+}
+.prev {
+	position:absolute;
+	margin-left:-5px;
+	margin-top: 20px;
+}
+.next {
+	position:absolute;
+	margin-left: 680px;
+	margin-top: 20px;
+}
+.button {
+	color:#fff;
+	-webkit-border-radius: 0.2em;
+	-moz-border-radius: 0.2em;
+	border-radius: 0.2em;
+	/* IE hacks */
+    zoom: 1;
+ *display: inline;
+	position: relative;
+	overflow: visible;
+	display: inline-block;
+	padding: 0.5em 1em;
+	font-size:12px;
+	margin: 0;
+	text-decoration: none;
+	white-space: nowrap;
+	cursor: pointer;
+	outline: none;
+	background-color: #4c4441;
+	-webkit-background-clip: padding;
+	-moz-background-clip: padding;
+	-o-background-clip: padding-box;
+	/*background-clip: padding-box;*/ /* commented out due to Opera 11.10 bug */
+    -webkit-border-radius: 0.2em;
+	-moz-border-radius: 0.2em;
+	border-radius: 0.2em;
+	/* IE hacks */
+    zoom: 1;
+ *display: inline;
+}
+.button:hover, .button:focus, .button:active {
+	border-color: #3072b3;
+	text-decoration: none;
+	color: #fff;
+	background-color: #35779d;
+}
+.button:active, .button.active {
+	color: #fff;
+	background-color: #12415c;
+}
+
+/* overrides extra padding on button elements in Firefox */
+.button::-moz-focus-inner {
+ padding: 0;
+ border: 0;
+}
+
+.galimg{
+	border: thin double #333;	
+	
+}
+
+.aboutImg{
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}

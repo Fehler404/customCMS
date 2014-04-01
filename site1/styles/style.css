@@ -1,0 +1,545 @@
+/*
+Theme Name: Style 1
+Theme URI: http://www.
+Description: 
+Author: Tairema Dailey
+Author URI: http://tairemadailey.com/
+Version: 1.0
+
+*/
+
+body, p, div, h1, h2, h3, h4, h5, h6, table, tbody, tr, td, span, blockquote, a, abbr, address, cite, code, img, ul, ol, li, dl, dd, dt, form, label, fieldset, caption, input, textarea, button {
+	border:0;
+	outline:0;
+	font-family: 'CaviarDreamsRegular';
+	color:#534b48;
+	vertical-align:baseline;
+	list-style:none;
+	text-decoration:none;
+	line-height:1.5em;
+	margin:0;
+	padding:0
+}
+
+#bsads
+{
+	margin-top:20px;
+	padding-left:10px;
+}
+
+body {
+	background:#e4deda;
+	font-size:14px
+}
+div#wrap {
+	width:980px;
+	position:relative;
+	margin:0 auto!important
+}
+div#sidebar {
+	width:220px;
+	height:100%;
+	float:left;
+	background:url(../images/aside-bg.png) repeat;
+	border-right:1px solid #4c4441;
+	position:fixed
+}
+a#logo {
+	text-align:center;
+	display:block;
+	width:100%;
+	position:relative;
+	z-index:999;
+	opacity:1;
+	-webkit-transition:all 300ms;
+	-moz-transition:all 300ms;
+	-o-transition:all 300ms;
+	transition:all 300ms;
+	padding: 15px 0 9px 0;
+}
+ul#navigation {
+	margin-top:25px;
+	margin-right:-5px;
+	position:relative;
+	width:220px;
+	z-index:999
+}
+ul#navigation li {
+	border:none;
+	background:none;
+	margin:0;
+	padding:0
+}
+ul#navigation li a:link, ul#navigation li a:visited {
+	text-decoration:none;
+	font-family: 'CaviarDreamsRegular';
+	margin-bottom:1px;
+	width:auto;
+	font-size:20px;
+	text-align:left;
+	padding-left:10px !important;
+	display:block;
+	transition:all 200ms;
+	-webkit-transition:all 200ms;
+	-moz-transition:all 200ms;
+	-o-transition:all 200ms;
+	padding:5px 10px 5px 0
+}
+ul#navigation li a:hover, ul#navigation li a.active {
+	background:#4c4441;
+	color:#FFF;
+}
+div#container {
+	width:730px;
+	float:right;
+	padding-right:25px;
+	left:-5px;
+	position:relative;
+	padding-top:0;
+	background:#c2bebb;
+}
+div.page {
+	margin-bottom:5px solid #dbdbdb;
+	margin-bottom:0;
+	padding-top:20px
+}
+div.page_content {
+	padding:25px 0 40px 25px
+}
+div#container h3.page_title {
+	font-family: 'CaviarDreamsRegular';
+	margin-left:25px;
+	font-size:35px;
+	color:#fff;
+	border-bottom:1px solid #fff;
+	text-shadow:1px 1px 2px #4c4441;
+	line-height:2;
+	padding:5px 0 0px 0px
+}
+div#works {
+	margin-top:10px;
+	overflow:visible!important;
+	width:725px;
+}
+div#works img {
+	width:28%;
+	min-height:150px;
+	position:relative;
+	margin-right:26px;
+	margin-bottom:18px;
+	float:left;
+	cursor:pointer;
+	transition:all 500ms;
+	-webkit-transition:all 500ms;
+	-moz-transition:all 500ms;
+	-o-transition:all 500ms;
+	background:#fff;
+}
+div#works img:hover {
+	top:-10px!important;
+	opacity:.5!important
+}
+
+ul#works_filter li a:hover, ul#works_filter li a.selected {
+	background:#c2bebb;
+	color:#fff;
+	opacity:1;
+	-webkit-border-radius: 0.2em;
+	-moz-border-radius: 0.2em;
+	border-radius: 0.2em;
+	/* IE hacks */
+    zoom: 1;
+ *display: inline;
+}
+
+#contact_form input {
+	background:#fcfbfb;
+}
+#contact_form {
+	width:600px;
+	float:left
+}
+#contact_form textarea {
+	width:97.5%;
+	background:#fcfbfb;
+	height:150px
+}
+
+#contact_form input[type="text"],
+#contact_form input[type="email"],
+#contact_form input[type="tel"],
+#contact_form input[type="url"],
+#contact_form textarea,
+#contact_form button[type="submit"] {
+	font:400 12px/12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#contact_form {
+	text-shadow:0 1px 0 #FFF;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	padding:25px;
+}
+#contact_form h3 {
+	color:#333;
+	display:block;
+	font-size:28px;
+}
+#contact_form h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+#contact_form label span {
+	cursor:pointer;
+	color:#333;
+	display:block;
+	margin:5px 0;
+	font-weight:900;
+}
+#contact_form input[type="text"],
+#contact_form input[type="email"],
+#contact_form input[type="tel"],
+#contact_form input[type="url"],
+#contact_form textarea {
+	width:100%;
+	box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-webkit-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-moz-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	border-radius:5px;
+}
+#contact_form input[type="text"]:hover,
+#contact_form input[type="email"]:hover,
+#contact_form textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+#contact_form textarea {
+	height:100px;
+	max-width:100%;
+}
+#contact_form button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#333;
+	background-image:linear-gradient(bottom, #8C1C50 0%, #333 52%);
+	background-image:-moz-linear-gradient(bottom, #8C1C50 0%, #333 52%);
+	background-image:-webkit-linear-gradient(bottom, #8C1C50 0%, #333 52%);
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	border-radius:5px;
+}
+#contact_form button[type="submit"]:hover {
+	background-image:linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+	background-image:-moz-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+	background-image:-webkit-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+#contact_form button[type="submit"]:active {
+	box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
+}
+#contact_form input:focus,
+#contact_form textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+    color:#888;
+}
+:-moz-placeholder {
+    color:#888;
+}
+::-moz-placeholder {
+    color:#888;
+}
+:-ms-input-placeholder {
+    color:#888;
+}
+
+
+
+
+
+
+
+
+
+img.no_border {
+	border:none!important
+}
+ul.pagination li, ul.pagination li:hover {
+	display:inline;
+	background:none;
+	border:none;
+	margin-left:1px;
+	padding:0
+}
+ul.pagination a:link, ul.pagination a:visited {
+	display:inline-block;
+	text-decoration:none;
+	background:url(./images/bg/15.png);
+	padding:5px 10px
+}
+div.footer {
+	text-align:center;
+	font-size:12px;
+	margin-top:40px;
+	padding:15px 0
+}
+.gotop {
+	position:fixed;
+	right:15px;
+	bottom:15px;
+	opacity:.3;
+	padding:10px;
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	font-size:13px;
+	font-weight:bold;
+	z-index:999;
+	transition:all 300ms;
+	-webkit-transition:all 300ms
+}
+.gotop:hover {
+	color:#eee;
+	opacity:.7
+}
+.gotop.hidden {
+	display:none;
+	opacity:0
+}
+a.gotop {
+	text-decoration:none!important
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'CaviarDreamsRegular';
+	font-weight:bold;
+	color:#1d1d1d
+}
+
+
+.clear {
+	clear:both
+}
+.space {
+	display:block;
+	float:left;
+	clear:both;
+	margin:10px 0
+}
+ul li {
+	line-height:2;
+	background:url(../images/icons/bullet.jpg) no-repeat left center;
+	padding-left:15px;
+}
+
+
+ol li {
+	list-style:decimal inside;
+	padding:5px 0
+}
+blockquote {
+	border-left:5px solid #4c4441;
+	font-style:italic;
+	padding:10px;
+	margin:20px;
+}
+div.page img {
+	padding:5px;
+	border:1px solid #73aaca;
+	max-width:94%
+}
+a#logo:hover, a.facebook:hover, a.twitter:hover, a.linkedin:hover, a.dribbble:hover, div.image_gallery img:hover {
+	opacity:.5
+}
+
+div.misc a, a:hover {
+	text-decoration:none
+}
+div.blogpost a.readmore:hover, ul.pagination a:hover, ul.pagination a.active_page {
+	background:url(./images/bg/50.png);
+	color:#FFF
+}
+ol.comments li.comment a.reply:hover, div.tab ul.tab_menu li:hover, div.tab ul.tab_menu li.active {
+	background:#8f8f8f;
+	color:#FFF
+}
+
+.clearfix {
+	float: none;
+	clear: both;
+}
+.prev {
+	position:absolute;
+	margin-left:-5px;
+	margin-top: 20px;
+}
+.next {
+	position:absolute;
+	margin-left: 680px;
+	margin-top: 20px;
+}
+.button {
+	color:#fff;
+	-webkit-border-radius: 0.2em;
+	-moz-border-radius: 0.2em;
+	border-radius: 0.2em;
+	/* IE hacks */
+    zoom: 1;
+ *display: inline;
+	position: relative;
+	overflow: visible;
+	display: inline-block;
+	padding: 0.5em 1em;
+	font-size:12px;
+	margin: 0;
+	text-decoration: none;
+	white-space: nowrap;
+	cursor: pointer;
+	outline: none;
+	background-color: #4c4441;
+	-webkit-background-clip: padding;
+	-moz-background-clip: padding;
+	-o-background-clip: padding-box;
+	/*background-clip: padding-box;*/ /* commented out due to Opera 11.10 bug */
+    -webkit-border-radius: 0.2em;
+	-moz-border-radius: 0.2em;
+	border-radius: 0.2em;
+	/* IE hacks */
+    zoom: 1;
+ *display: inline;
+}
+.button:hover, .button:focus, .button:active {
+	border-color: #3072b3;
+	text-decoration: none;
+	color: #fff;
+	background-color: #35779d;
+}
+.button:active, .button.active {
+	color: #fff;
+	background-color: #12415c;
+}
+
+/* overrides extra padding on button elements in Firefox */
+.button::-moz-focus-inner {
+ padding: 0;
+ border: 0;
+}
+ul.sublist li {
+	width: 140px;
+	float: left;
+}
+ul.sublist li {
+	background: url('../images/ico-arrow.gif') 0px 10px no-repeat;
+	font-size:12px;
+}
+ul.sublist li a {
+	color:#fff;
+	text-decoration:none;
+}
+ul.sublist li a:hover {
+	color:#002b44;
+}
+
+
+.schedule{
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: thin solid #e4deda;	
+	background: #e4deda;
+	color: #fff;
+	width: 150px;
+	height: 30px;
+	padding: 15px;
+	padding-top: 5px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.schedule a{
+	color: #736357;
+	text-decoration:none;
+	
+}
+
+.schedule a:hover{
+	color:#f5f4f4;
+
+}
+
+a{
+	text-decoration:none;
+	color:#f5f4f4;
+}
+
+a:hover{
+	color:#d7d4d1;	
+	
+}
+
+
+.socialico{
+	margin-top:20px;
+	margin-left: 80px;
+	
+}
+
+/*Styles*/
+@font-face {
+    font-family: 'CaviarDreamsRegular';
+    src: url('../assets/Caviar-Dreams-fontfacekit/CaviarDreams-webfont.eot');
+    src: url('../assets/Caviar-Dreams-fontfacekit/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/Caviar-Dreams-fontfacekit/CaviarDreams-webfont.woff') format('woff'),
+         url('../assets/Caviar-Dreams-fontfacekit/CaviarDreams-webfont.ttf') format('truetype'),
+         url('../assets/Caviar-Dreams-fontfacekit/CaviarDreams-webfont.svg#CaviarDreamsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CaviarDreamsBold';
+    src: url('../assets/Caviar-Dreams-fontfacekit/Caviar_Dreams_Bold-webfont.eot');
+    src: url('../assets/Caviar-Dreams-fontfacekit/Caviar_Dreams_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/Caviar-Dreams-fontfacekit/Caviar_Dreams_Bold-webfont.woff') format('woff'),
+         url('../assets/Caviar-Dreams-fontfacekit/Caviar_Dreams_Bold-webfont.ttf') format('truetype'),
+         url('../assets/Caviar-Dreams-fontfacekit/Caviar_Dreams_Bold-webfont.svg#CaviarDreamsBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.galimg{
+	border: thin double #4c4441;	
+	
+}
+
+.aboutImg{
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+input:required:invalid, input:focus:invalid {
+  background-image: url(../images/invalid.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+input:required:valid {
+  background-image: url(../images/valid.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+}

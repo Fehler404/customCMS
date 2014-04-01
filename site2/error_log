@@ -1,0 +1,1 @@
+[21-May-2013 16:44:39 America/Denver] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) in /home/tuniqued/public_html/istudy/site2/contact.php on line 86
